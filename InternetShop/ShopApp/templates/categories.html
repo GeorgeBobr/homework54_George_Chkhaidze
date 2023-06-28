@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>categories</h1>
+    {% for category in categories %}
+        <div class="category-item">
+            <h2>{{ category.title }}</h2>
+            <p>{{ category.description }}</p>
+            <a href="{% url 'category_edit_view' category.id %}">Edit</a>
+            <a href="{% url 'delete_category' category.id %}">Delete</a>
+        </div>
+    {% empty %}
+        <p>No categories</p>
+    {% endfor %}
+{% endblock %}
