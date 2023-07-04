@@ -1,11 +1,5 @@
 {% extends "base.html" %}
 
-{% block link %}
-    <li class="nav-item">
-        <a class="nav-link" href="{% url "Product_add" %}">Создание статьи</a>
-    </li>
-{% endblock %}
-
 {% block content %}
     <br>
     {% for product in products %}
@@ -15,10 +9,9 @@
                 <h5 class="card-title">{{ product.title }}</h5>
                 <p class="card-text">{{ product.category.title }}</p>
                 <h6 class="card-subtitle mb-2 text-body-secondary">{{ product.price }}</h6>
-                <img src="{{ product.image }}" alt="{{ product.name }}" style="width: 100%; height: auto;">>
-                <a href="{% url "product_view" product.id %}" class="card-link">See more</a>
+                <img src="{{ product.image }}" alt="{{ product.title }}" style="width: 100%; height: auto;">>
+                <a href="{% url "product_detail" product.id %}" class="card-link">See more</a>
             </div>
         </div>
     {% endfor %}
 {% endblock %}
-
