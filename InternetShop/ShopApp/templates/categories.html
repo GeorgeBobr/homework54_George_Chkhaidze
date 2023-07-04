@@ -1,13 +1,26 @@
 {% extends 'base.html' %}
 {% block content %}
+    {% block styles %}
+        <style>
+            body {
+                background-image: url('https://foni.club/uploads/posts/2023-01/1673174378_foni-club-p-oboi-anime-uwu-5.png');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                min-height: 100vh;
+            }
+        </style>
+    {% endblock %}
     <h1>categories</h1>
     {% for category in categories %}
-        <div class="category-item">
-            <h2>{{ category.title }}</h2>
-            <p>{{ category.description }}</p>
-            <a href="{% url 'edit_category' category.id %}">Edit</a>
-            <a href="{% url 'delete_category' category.id %}">Delete</a>
+        <div class="card w-75">
+            <div class="card-body">
+            <h2 class="card-title">{{ category.title }}</h2>
+            <p  class="card-text">{{ category.description }}</p>
+            <a href="{% url 'delete_category' category.id %}" class="btn btn-primary">Delete</a>
+            </div>
         </div>
+
     {% empty %}
         <p>No categories</p>
     {% endfor %}
