@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5056976-ed0a-440c-b590-0d607f1f4145" name="Changes" comment="Fix some strings">
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/add_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/add_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/delete_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/edit_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/edit_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InternetShop/ShopApp/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternetShop/ShopApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternetShop/ShopApp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InternetShop/ShopApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/InternetShop/ShopApp/models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/InternetShop" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="homework56" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/InternetShop" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/InternetShop/ShopApp/templates/add_category.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="2RjEjp6K9eBwDXhT04uyPaOu7bd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Python/conrolworks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Startapp" type="Python.DjangoServer" factoryName="Django server">
+      <module name="homework54" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="InternetShop.InternetShop.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Georgie\AppData\Local\Programs\Python\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="Localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://Localhost:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5056976-ed0a-440c-b590-0d607f1f4145" name="Changes" comment="" />
+      <created>1687755232158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687755232158</updated>
+      <workItem from="1687755232957" duration="632000" />
+      <workItem from="1687755906110" duration="333000" />
+      <workItem from="1687756449116" duration="9905000" />
+      <workItem from="1687850360529" duration="11321000" />
+      <workItem from="1687864532354" duration="3127000" />
+      <workItem from="1687867677688" duration="279000" />
+      <workItem from="1687867969038" duration="4666000" />
+      <workItem from="1687873395227" duration="4286000" />
+      <workItem from="1687883435131" duration="350000" />
+      <workItem from="1687934282941" duration="628000" />
+      <workItem from="1687937609309" duration="1429000" />
+      <workItem from="1687951446399" duration="4905000" />
+      <workItem from="1687956889716" duration="394000" />
+      <workItem from="1687957297839" duration="2696000" />
+      <workItem from="1688112529174" duration="43000" />
+      <workItem from="1688370752536" duration="3291000" />
+      <workItem from="1688374087138" duration="3794000" />
+      <workItem from="1688377926610" duration="1980000" />
+      <workItem from="1688384955481" duration="921000" />
+      <workItem from="1688444966246" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="add .gitignore &#10;add .requirements">
+      <created>1687959043258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687959043258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add remainder in class Product">
+      <created>1688373370612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688373370612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create class CategoryForm">
+      <created>1688376939185</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688376939185</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change views and models">
+      <created>1688377972285</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688377972285</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create validate">
+      <created>1688377983663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688377983663</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change urls">
+      <created>1688378003628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688378003628</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix some strings">
+      <created>1688384873430</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688384873431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .gitignore &#10;add .requirements" />
+    <MESSAGE value="add remainder in class Product" />
+    <MESSAGE value="create class CategoryForm" />
+    <MESSAGE value="change views and models" />
+    <MESSAGE value="create validate" />
+    <MESSAGE value="change urls" />
+    <MESSAGE value="Fix some strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some strings" />
+  </component>
+</project>
