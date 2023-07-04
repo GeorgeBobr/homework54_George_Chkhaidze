@@ -1,0 +1,34 @@
+<form method="post" action="">
+  {% csrf_token %}
+  <table>
+    <tr>
+      <td><label for="name">Title:</label></td>
+      <td><input type="text" id="name" name="title" value="{{ product.title }}" required></td>
+    </tr>
+    <tr>
+      <td><label for="price">Price:</label></td>
+      <td><input type="number" id="price" name="price" value="{{ product.price }}" required></td>
+    </tr>
+    <tr>
+      <td><label for="image">Image:</label></td>
+      <td><input type="url" id="image" name="image" value="{{ product.image }}" required></td>
+    </tr>
+    <tr>
+      <td><label for="category">Category:</label></td>
+      <td>
+        <select id="category" name="category" required>
+          {% for category in categories %}
+            <option value="{{ category.id }}">{{ category.title }}</option>
+          {% endfor %}
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="description">Description:</label></td>
+      <td><textarea id="description" name="description">{{ product.description }}</textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;"><button type="submit">Edit product</button></td>
+    </tr>
+  </table>
+</form>

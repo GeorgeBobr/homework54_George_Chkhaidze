@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+    {% block styles %}
+        <style>
+            body {
+                background-image: url('https://i.pinimg.com/1200x/34/36/0d/34360da60759fdd7078af0aff16b7ed1.jpg');
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                min-height: 100vh;
+            }
+        </style>
+{% endblock %}
+
+<div class="container">
+    <form action="" method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            <p><label for="{{ field.id_for_label }}">{{ field.label }}</label></p>
+            {% for error in field.errors %}
+                <p class="form-error">{{ error }}</p>
+            {% endfor %}
+            <p>{{ field }}</p>
+        {% endfor %}
+
+        <br/>
+        <strong>{{ category.title }}<button>Добавить</button></strong> <a href="{% url 'products' %}"><button>На главную</button></a>
+    </form>
+    <br/>
+
+</div>
+{% endblock %}
